@@ -68,10 +68,11 @@
 
   </link>
 
-  <joint name="left_wheel_joint" type="fixed">
+  <joint name="left_wheel_joint" type="continuous">
     <parent link="base_link"/>
     <child link="left_wheel"/>
     <origin xyz="0 0.15 -0.05"/>
+    <axis xyz="0 1 0"/>
   </joint>
 
   <!-- ========================= -->
@@ -108,10 +109,11 @@
 
   </link>
 
-  <joint name="right_wheel_joint" type="fixed">
+  <joint name="right_wheel_joint" type="continuous">
     <parent link="base_link"/>
     <child link="right_wheel"/>
     <origin xyz="0 -0.15 -0.05"/>
+    <axis xyz="0 1 0"/>
   </joint>
 
   <!-- ========================= -->

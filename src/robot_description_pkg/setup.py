@@ -29,6 +29,23 @@ setup(
             os.path.join('share', package_name, 'rviz'),
             glob('rviz/*.rviz')
         ),
+        (
+            os.path.join(
+                'share',
+                package_name,
+                'worlds'
+            ),
+            glob('worlds/*')
+        ),
+        (
+            os.path.join(
+                'share',
+                package_name,
+                'models',
+                'mobile_robot'
+            ),
+            glob('models/mobile_robot/*')
+        ),
     ],
     install_requires=['setuptools'],
     zip_safe=True,

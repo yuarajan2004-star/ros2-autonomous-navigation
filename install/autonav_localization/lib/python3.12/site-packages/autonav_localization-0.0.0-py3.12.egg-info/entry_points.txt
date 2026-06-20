@@ -1,6 +1,0 @@
-[console_scripts]
-ekf_localization_node = autonav_localization.ekf_localization_node:main
-ekf_node = autonav_localization.ekf_node:main
-path_publisher = autonav_localization.path_publisher:main
-robot_marker = autonav_localization.robot_marker:main
-tf_broadcaster = autonav_localization.tf_broadcaster:main

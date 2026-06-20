@@ -1,0 +1,46 @@
+[0.651s] Invoking command in '/home/yuarajan_s/ros2_ws/src/robot_description_pkg': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/robot_description_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/robot_description_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description_pkg build --build-base /home/yuarajan_s/ros2_ws/build/robot_description_pkg/build install --record /home/yuarajan_s/ros2_ws/build/robot_description_pkg/install.log --single-version-externally-managed install_data
+[0.854s] running egg_info
+[0.855s] creating ../../build/robot_description_pkg/robot_description_pkg.egg-info
+[0.869s] writing ../../build/robot_description_pkg/robot_description_pkg.egg-info/PKG-INFO
+[0.870s] writing dependency_links to ../../build/robot_description_pkg/robot_description_pkg.egg-info/dependency_links.txt
+[0.870s] writing requirements to ../../build/robot_description_pkg/robot_description_pkg.egg-info/requires.txt
+[0.870s] writing top-level names to ../../build/robot_description_pkg/robot_description_pkg.egg-info/top_level.txt
+[0.870s] writing manifest file '../../build/robot_description_pkg/robot_description_pkg.egg-info/SOURCES.txt'
+[0.899s] reading manifest file '../../build/robot_description_pkg/robot_description_pkg.egg-info/SOURCES.txt'
+[0.900s] writing manifest file '../../build/robot_description_pkg/robot_description_pkg.egg-info/SOURCES.txt'
+[0.900s] running build
+[0.900s] running build_py
+[0.900s] creating /home/yuarajan_s/ros2_ws/build/robot_description_pkg/build
+[0.901s] creating /home/yuarajan_s/ros2_ws/build/robot_description_pkg/build/lib
+[0.901s] creating /home/yuarajan_s/ros2_ws/build/robot_description_pkg/build/lib/robot_description_pkg
+[0.901s] copying robot_description_pkg/__init__.py -> /home/yuarajan_s/ros2_ws/build/robot_description_pkg/build/lib/robot_description_pkg
+[0.902s] running install
+[0.906s] running install_lib
+[0.922s] creating /home/yuarajan_s/ros2_ws/install/robot_description_pkg/lib/python3.12/site-packages/robot_description_pkg
+[0.922s] copying /home/yuarajan_s/ros2_ws/build/robot_description_pkg/build/lib/robot_description_pkg/__init__.py -> /home/yuarajan_s/ros2_ws/install/robot_description_pkg/lib/python3.12/site-packages/robot_description_pkg
+[0.922s] byte-compiling /home/yuarajan_s/ros2_ws/install/robot_description_pkg/lib/python3.12/site-packages/robot_description_pkg/__init__.py to __init__.cpython-312.pyc
+[0.923s] running install_data
+[0.923s] creating /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/ament_index
+[0.924s] creating /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/ament_index/resource_index
+[0.924s] creating /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/ament_index/resource_index/packages
+[0.924s] copying resource/robot_description_pkg -> /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/ament_index/resource_index/packages
+[0.924s] copying package.xml -> /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg
+[0.925s] creating /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/launch
+[0.925s] copying launch/display_robot.launch.py -> /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/launch
+[0.925s] copying launch/full_tf.launch.py -> /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/launch
+[0.925s] copying launch/gazebo.launch.py -> /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/launch
+[0.925s] creating /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/urdf
+[0.926s] copying urdf/mobile_robot.urdf -> /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/urdf
+[0.926s] creating /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/rviz
+[0.926s] copying rviz/robot.rviz -> /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/rviz
+[0.927s] creating /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/worlds
+[0.927s] copying worlds/empty.sdf -> /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/worlds
+[0.927s] creating /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/models
+[0.927s] creating /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/models/mobile_robot
+[0.928s] copying models/mobile_robot/mobile_robot.sdf -> /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/models/mobile_robot
+[0.928s] copying models/mobile_robot/model.config -> /home/yuarajan_s/ros2_ws/install/robot_description_pkg/share/robot_description_pkg/models/mobile_robot
+[0.928s] running install_egg_info
+[0.945s] Copying ../../build/robot_description_pkg/robot_description_pkg.egg-info to /home/yuarajan_s/ros2_ws/install/robot_description_pkg/lib/python3.12/site-packages/robot_description_pkg-0.0.0-py3.12.egg-info
+[0.946s] running install_scripts
+[1.050s] writing list of installed files to '/home/yuarajan_s/ros2_ws/build/robot_description_pkg/install.log'
+[1.075s] Invoked command in '/home/yuarajan_s/ros2_ws/src/robot_description_pkg' returned '0': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/robot_description_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/robot_description_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/robot_description_pkg build --build-base /home/yuarajan_s/ros2_ws/build/robot_description_pkg/build install --record /home/yuarajan_s/ros2_ws/build/robot_description_pkg/install.log --single-version-externally-managed install_data
