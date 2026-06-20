@@ -1,0 +1,7 @@
+[console_scripts]
+astar_planner = autonav_planning.astar_planner:main
+goal_manager = autonav_planning.goal_manager:main
+laser_scan_sim = autonav_planning.laser_scan_sim:main
+map_publisher = autonav_planning.map_publisher:main
+occupancy_mapper = autonav_planning.occupancy_mapper:main
+replanner = autonav_planning.replanner:main

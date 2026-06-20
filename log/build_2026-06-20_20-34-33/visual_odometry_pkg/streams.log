@@ -1,0 +1,75 @@
+[4.919s] Invoking command in '/home/yuarajan_s/ros2_ws/build/visual_odometry_pkg': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build
+[5.438s] running develop
+[5.788s] Removing /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual-odometry-pkg.egg-link (link to .)
+[5.970s] Invoked command in '/home/yuarajan_s/ros2_ws/build/visual_odometry_pkg' returned '0': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build
+[5.970s] Invoking command in '/home/yuarajan_s/ros2_ws/src/visual_odometry_pkg': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visual_odometry_pkg build --build-base /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build install --record /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/install.log --single-version-externally-managed install_data --force
+[6.309s] running egg_info
+[6.333s] writing ../../build/visual_odometry_pkg/visual_odometry_pkg.egg-info/PKG-INFO
+[6.333s] writing dependency_links to ../../build/visual_odometry_pkg/visual_odometry_pkg.egg-info/dependency_links.txt
+[6.334s] writing entry points to ../../build/visual_odometry_pkg/visual_odometry_pkg.egg-info/entry_points.txt
+[6.335s] writing requirements to ../../build/visual_odometry_pkg/visual_odometry_pkg.egg-info/requires.txt
+[6.335s] writing top-level names to ../../build/visual_odometry_pkg/visual_odometry_pkg.egg-info/top_level.txt
+[6.387s] reading manifest file '../../build/visual_odometry_pkg/visual_odometry_pkg.egg-info/SOURCES.txt'
+[6.389s] writing manifest file '../../build/visual_odometry_pkg/visual_odometry_pkg.egg-info/SOURCES.txt'
+[6.389s] running build
+[6.389s] running build_py
+[6.390s] copying visual_odometry_pkg/feature_matcher.py -> /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg
+[6.394s] copying visual_odometry_pkg/depth_estimator.py -> /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg
+[6.394s] copying visual_odometry_pkg/visual_place_recognition.py -> /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg
+[6.395s] copying visual_odometry_pkg/stereo_vision.py -> /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg
+[6.396s] copying visual_odometry_pkg/ransac_feature_matching.py -> /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg
+[6.397s] copying visual_odometry_pkg/orb_feature_extractor.py -> /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg
+[6.399s] copying visual_odometry_pkg/monocular_visual_odometry.py -> /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg
+[6.399s] copying visual_odometry_pkg/visual_slam.py -> /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg
+[6.401s] copying visual_odometry_pkg/essential_matrix_estimator.py -> /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg
+[6.401s] copying visual_odometry_pkg/stereo_camera_publisher.py -> /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg
+[6.402s] copying visual_odometry_pkg/vision_loop_closure.py -> /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg
+[6.403s] running install
+[6.410s] running install_lib
+[6.439s] creating /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.440s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/feature_matcher.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.440s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/visual_odometry.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.441s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/depth_estimator.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.443s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/visual_place_recognition.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.443s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/stereo_vision.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.443s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/ransac_feature_matching.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.443s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/orb_feature_extractor.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.444s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/monocular_visual_odometry.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.444s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/__init__.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.444s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/visual_slam.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.444s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/essential_matrix_estimator.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.444s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/stereo_camera_publisher.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.444s] copying /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build/lib/visual_odometry_pkg/vision_loop_closure.py -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg
+[6.445s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/feature_matcher.py to feature_matcher.cpython-312.pyc
+[6.448s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/visual_odometry.py to visual_odometry.cpython-312.pyc
+[6.453s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/depth_estimator.py to depth_estimator.cpython-312.pyc
+[6.454s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/visual_place_recognition.py to visual_place_recognition.cpython-312.pyc
+[6.454s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/stereo_vision.py to stereo_vision.cpython-312.pyc
+[6.454s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/ransac_feature_matching.py to ransac_feature_matching.cpython-312.pyc
+[6.454s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/orb_feature_extractor.py to orb_feature_extractor.cpython-312.pyc
+[6.454s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/monocular_visual_odometry.py to monocular_visual_odometry.cpython-312.pyc
+[6.455s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/__init__.py to __init__.cpython-312.pyc
+[6.455s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/visual_slam.py to visual_slam.cpython-312.pyc
+[6.456s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/essential_matrix_estimator.py to essential_matrix_estimator.cpython-312.pyc
+[6.458s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/stereo_camera_publisher.py to stereo_camera_publisher.cpython-312.pyc
+[6.461s] byte-compiling /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg/vision_loop_closure.py to vision_loop_closure.cpython-312.pyc
+[6.461s] running install_data
+[6.462s] copying resource/visual_odometry_pkg -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/share/ament_index/resource_index/packages
+[6.462s] copying package.xml -> /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/share/visual_odometry_pkg
+[6.462s] running install_egg_info
+[6.490s] Copying ../../build/visual_odometry_pkg/visual_odometry_pkg.egg-info to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual_odometry_pkg-0.0.0-py3.12.egg-info
+[6.493s] running install_scripts
+[6.664s] Installing depth_estimator script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.664s] Installing essential_matrix_estimator script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.665s] Installing feature_matcher script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.665s] Installing monocular_visual_odometry script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.665s] Installing orb_feature_extractor script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.667s] Installing ransac_feature_matching script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.667s] Installing stereo_camera_publisher script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.667s] Installing stereo_vision script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.667s] Installing vision_loop_closure script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.667s] Installing visual_odometry script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.668s] Installing visual_place_recognition script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.668s] Installing visual_slam script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[6.668s] writing list of installed files to '/home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/install.log'
+[6.734s] Invoked command in '/home/yuarajan_s/ros2_ws/src/visual_odometry_pkg' returned '0': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/visual_odometry_pkg build --build-base /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build install --record /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/install.log --single-version-externally-managed install_data --force

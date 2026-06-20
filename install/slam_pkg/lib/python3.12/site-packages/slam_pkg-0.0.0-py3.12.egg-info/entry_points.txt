@@ -1,0 +1,10 @@
+[console_scripts]
+data_association = slam_pkg.data_association:main
+ekf_slam = slam_pkg.ekf_slam:main
+graph_slam_backend = slam_pkg.graph_slam_backend:main
+landmark_covariance = slam_pkg.landmark_covariance:main
+landmark_detector = slam_pkg.landmark_detector:main
+loop_closure = slam_pkg.loop_closure:main
+occupancy_grid_slam = slam_pkg.occupancy_grid_slam:main
+pose_graph = slam_pkg.pose_graph:main
+slam_metrics = slam_pkg.slam_metrics:main

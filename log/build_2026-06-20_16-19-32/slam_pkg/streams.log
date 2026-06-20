@@ -1,0 +1,19 @@
+[1.590s] Invoking command in '/home/yuarajan_s/ros2_ws/build/slam_pkg': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/slam_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuarajan_s/ros2_ws/build/slam_pkg/build --no-deps symlink_data
+[2.211s] running develop
+[2.504s] running egg_info
+[2.530s] writing slam_pkg.egg-info/PKG-INFO
+[2.531s] writing dependency_links to slam_pkg.egg-info/dependency_links.txt
+[2.531s] writing entry points to slam_pkg.egg-info/entry_points.txt
+[2.531s] writing requirements to slam_pkg.egg-info/requires.txt
+[2.532s] writing top-level names to slam_pkg.egg-info/top_level.txt
+[2.584s] reading manifest file 'slam_pkg.egg-info/SOURCES.txt'
+[2.585s] writing manifest file 'slam_pkg.egg-info/SOURCES.txt'
+[2.616s] running build_ext
+[2.616s] Creating /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/python3.12/site-packages/slam-pkg.egg-link (link to .)
+[2.617s] Installing data_association script to /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/slam_pkg
+[2.618s] Installing ekf_slam script to /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/slam_pkg
+[2.619s] Installing landmark_detector script to /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/slam_pkg
+[2.619s] 
+[2.620s] Installed /home/yuarajan_s/ros2_ws/build/slam_pkg
+[2.620s] running symlink_data
+[2.692s] Invoked command in '/home/yuarajan_s/ros2_ws/build/slam_pkg' returned '0': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/slam_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuarajan_s/ros2_ws/build/slam_pkg/build --no-deps symlink_data

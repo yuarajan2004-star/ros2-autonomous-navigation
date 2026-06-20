@@ -1,0 +1,63 @@
+[3.541s] Invoking command in '/home/yuarajan_s/ros2_ws/src/autonav_planning': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/autonav_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonav_planning build --build-base /home/yuarajan_s/ros2_ws/build/autonav_planning/build install --record /home/yuarajan_s/ros2_ws/build/autonav_planning/install.log --single-version-externally-managed install_data
+[3.997s] running egg_info
+[3.997s] creating ../../build/autonav_planning/autonav_planning.egg-info
+[4.024s] writing ../../build/autonav_planning/autonav_planning.egg-info/PKG-INFO
+[4.025s] writing dependency_links to ../../build/autonav_planning/autonav_planning.egg-info/dependency_links.txt
+[4.026s] writing entry points to ../../build/autonav_planning/autonav_planning.egg-info/entry_points.txt
+[4.026s] writing requirements to ../../build/autonav_planning/autonav_planning.egg-info/requires.txt
+[4.026s] writing top-level names to ../../build/autonav_planning/autonav_planning.egg-info/top_level.txt
+[4.027s] writing manifest file '../../build/autonav_planning/autonav_planning.egg-info/SOURCES.txt'
+[4.087s] reading manifest file '../../build/autonav_planning/autonav_planning.egg-info/SOURCES.txt'
+[4.089s] writing manifest file '../../build/autonav_planning/autonav_planning.egg-info/SOURCES.txt'
+[4.089s] running build
+[4.090s] running build_py
+[4.090s] creating /home/yuarajan_s/ros2_ws/build/autonav_planning/build
+[4.093s] creating /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib
+[4.094s] creating /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning
+[4.100s] copying autonav_planning/laser_scan_sim.py -> /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning
+[4.101s] copying autonav_planning/map_publisher.py -> /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning
+[4.101s] copying autonav_planning/occupancy_mapper.py -> /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning
+[4.101s] copying autonav_planning/__init__.py -> /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning
+[4.101s] copying autonav_planning/goal_manager.py -> /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning
+[4.101s] copying autonav_planning/astar_planner.py -> /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning
+[4.101s] copying autonav_planning/planner_node.py -> /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning
+[4.102s] copying autonav_planning/astar_search.py -> /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning
+[4.102s] copying autonav_planning/replanner.py -> /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning
+[4.102s] running install
+[4.106s] running install_lib
+[4.130s] creating /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning
+[4.131s] copying /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning/laser_scan_sim.py -> /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning
+[4.131s] copying /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning/map_publisher.py -> /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning
+[4.131s] copying /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning/occupancy_mapper.py -> /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning
+[4.131s] copying /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning/__init__.py -> /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning
+[4.132s] copying /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning/goal_manager.py -> /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning
+[4.132s] copying /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning/astar_planner.py -> /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning
+[4.132s] copying /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning/planner_node.py -> /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning
+[4.132s] copying /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning/astar_search.py -> /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning
+[4.132s] copying /home/yuarajan_s/ros2_ws/build/autonav_planning/build/lib/autonav_planning/replanner.py -> /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning
+[4.133s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning/laser_scan_sim.py to laser_scan_sim.cpython-312.pyc
+[4.136s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning/map_publisher.py to map_publisher.cpython-312.pyc
+[4.137s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning/occupancy_mapper.py to occupancy_mapper.cpython-312.pyc
+[4.138s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning/__init__.py to __init__.cpython-312.pyc
+[4.138s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning/goal_manager.py to goal_manager.cpython-312.pyc
+[4.139s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning/astar_planner.py to astar_planner.cpython-312.pyc
+[4.145s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning/planner_node.py to planner_node.cpython-312.pyc
+[4.145s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning/astar_search.py to astar_search.cpython-312.pyc
+[4.145s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning/replanner.py to replanner.cpython-312.pyc
+[4.145s] running install_data
+[4.145s] creating /home/yuarajan_s/ros2_ws/install/autonav_planning/share/ament_index
+[4.146s] creating /home/yuarajan_s/ros2_ws/install/autonav_planning/share/ament_index/resource_index
+[4.146s] creating /home/yuarajan_s/ros2_ws/install/autonav_planning/share/ament_index/resource_index/packages
+[4.146s] copying resource/autonav_planning -> /home/yuarajan_s/ros2_ws/install/autonav_planning/share/ament_index/resource_index/packages
+[4.146s] copying package.xml -> /home/yuarajan_s/ros2_ws/install/autonav_planning/share/autonav_planning
+[4.146s] running install_egg_info
+[4.175s] Copying ../../build/autonav_planning/autonav_planning.egg-info to /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages/autonav_planning-0.0.0-py3.12.egg-info
+[4.189s] running install_scripts
+[4.405s] Installing astar_planner script to /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/autonav_planning
+[4.407s] Installing goal_manager script to /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/autonav_planning
+[4.407s] Installing laser_scan_sim script to /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/autonav_planning
+[4.407s] Installing map_publisher script to /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/autonav_planning
+[4.407s] Installing occupancy_mapper script to /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/autonav_planning
+[4.407s] Installing replanner script to /home/yuarajan_s/ros2_ws/install/autonav_planning/lib/autonav_planning
+[4.408s] writing list of installed files to '/home/yuarajan_s/ros2_ws/build/autonav_planning/install.log'
+[4.528s] Invoked command in '/home/yuarajan_s/ros2_ws/src/autonav_planning' returned '0': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/autonav_planning/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/autonav_planning/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonav_planning build --build-base /home/yuarajan_s/ros2_ws/build/autonav_planning/build install --record /home/yuarajan_s/ros2_ws/build/autonav_planning/install.log --single-version-externally-managed install_data

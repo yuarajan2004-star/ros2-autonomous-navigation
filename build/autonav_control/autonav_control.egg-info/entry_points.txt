@@ -1,0 +1,3 @@
+[console_scripts]
+path_follower = autonav_control.path_follower:main
+pure_pursuit = autonav_control.pure_pursuit:main

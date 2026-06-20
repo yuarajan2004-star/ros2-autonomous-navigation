@@ -1,0 +1,2 @@
+[console_scripts]
+wheel_odometry = odometry_pkg.wheel_odometry:main

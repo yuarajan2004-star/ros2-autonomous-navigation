@@ -1,0 +1,20 @@
+[1.954s] Invoking command in '/home/yuarajan_s/ros2_ws/build/slam_pkg': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/slam_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuarajan_s/ros2_ws/build/slam_pkg/build --no-deps symlink_data --force
+[2.809s] running develop
+[3.122s] running egg_info
+[3.154s] writing slam_pkg.egg-info/PKG-INFO
+[3.155s] writing dependency_links to slam_pkg.egg-info/dependency_links.txt
+[3.155s] writing entry points to slam_pkg.egg-info/entry_points.txt
+[3.155s] writing requirements to slam_pkg.egg-info/requires.txt
+[3.155s] writing top-level names to slam_pkg.egg-info/top_level.txt
+[3.218s] reading manifest file 'slam_pkg.egg-info/SOURCES.txt'
+[3.219s] writing manifest file 'slam_pkg.egg-info/SOURCES.txt'
+[3.251s] running build_ext
+[3.251s] Creating /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/python3.12/site-packages/slam-pkg.egg-link (link to .)
+[3.252s] Installing data_association script to /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/slam_pkg
+[3.252s] Installing landmark_detector script to /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/slam_pkg
+[3.253s] 
+[3.253s] Installed /home/yuarajan_s/ros2_ws/build/slam_pkg
+[3.253s] running symlink_data
+[3.253s] symbolically linking /home/yuarajan_s/ros2_ws/build/slam_pkg/resource/slam_pkg -> /home/yuarajan_s/ros2_ws/install/slam_pkg/share/ament_index/resource_index/packages
+[3.253s] symbolically linking /home/yuarajan_s/ros2_ws/build/slam_pkg/package.xml -> /home/yuarajan_s/ros2_ws/install/slam_pkg/share/slam_pkg
+[3.347s] Invoked command in '/home/yuarajan_s/ros2_ws/build/slam_pkg' returned '0': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/slam_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuarajan_s/ros2_ws/build/slam_pkg/build --no-deps symlink_data --force

@@ -1,0 +1,41 @@
+[3.598s] Invoking command in '/home/yuarajan_s/ros2_ws/src/autonav_control': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/autonav_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/autonav_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonav_control build --build-base /home/yuarajan_s/ros2_ws/build/autonav_control/build install --record /home/yuarajan_s/ros2_ws/build/autonav_control/install.log --single-version-externally-managed install_data
+[4.075s] running egg_info
+[4.075s] creating ../../build/autonav_control/autonav_control.egg-info
+[4.108s] writing ../../build/autonav_control/autonav_control.egg-info/PKG-INFO
+[4.113s] writing dependency_links to ../../build/autonav_control/autonav_control.egg-info/dependency_links.txt
+[4.113s] writing entry points to ../../build/autonav_control/autonav_control.egg-info/entry_points.txt
+[4.114s] writing requirements to ../../build/autonav_control/autonav_control.egg-info/requires.txt
+[4.114s] writing top-level names to ../../build/autonav_control/autonav_control.egg-info/top_level.txt
+[4.114s] writing manifest file '../../build/autonav_control/autonav_control.egg-info/SOURCES.txt'
+[4.164s] reading manifest file '../../build/autonav_control/autonav_control.egg-info/SOURCES.txt'
+[4.164s] writing manifest file '../../build/autonav_control/autonav_control.egg-info/SOURCES.txt'
+[4.164s] running build
+[4.165s] running build_py
+[4.165s] creating /home/yuarajan_s/ros2_ws/build/autonav_control/build
+[4.166s] creating /home/yuarajan_s/ros2_ws/build/autonav_control/build/lib
+[4.167s] creating /home/yuarajan_s/ros2_ws/build/autonav_control/build/lib/autonav_control
+[4.167s] copying autonav_control/path_follower.py -> /home/yuarajan_s/ros2_ws/build/autonav_control/build/lib/autonav_control
+[4.171s] copying autonav_control/__init__.py -> /home/yuarajan_s/ros2_ws/build/autonav_control/build/lib/autonav_control
+[4.171s] copying autonav_control/pure_pursuit.py -> /home/yuarajan_s/ros2_ws/build/autonav_control/build/lib/autonav_control
+[4.171s] running install
+[4.179s] running install_lib
+[4.208s] creating /home/yuarajan_s/ros2_ws/install/autonav_control/lib/python3.12/site-packages/autonav_control
+[4.209s] copying /home/yuarajan_s/ros2_ws/build/autonav_control/build/lib/autonav_control/path_follower.py -> /home/yuarajan_s/ros2_ws/install/autonav_control/lib/python3.12/site-packages/autonav_control
+[4.210s] copying /home/yuarajan_s/ros2_ws/build/autonav_control/build/lib/autonav_control/__init__.py -> /home/yuarajan_s/ros2_ws/install/autonav_control/lib/python3.12/site-packages/autonav_control
+[4.210s] copying /home/yuarajan_s/ros2_ws/build/autonav_control/build/lib/autonav_control/pure_pursuit.py -> /home/yuarajan_s/ros2_ws/install/autonav_control/lib/python3.12/site-packages/autonav_control
+[4.211s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_control/lib/python3.12/site-packages/autonav_control/path_follower.py to path_follower.cpython-312.pyc
+[4.214s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_control/lib/python3.12/site-packages/autonav_control/__init__.py to __init__.cpython-312.pyc
+[4.229s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_control/lib/python3.12/site-packages/autonav_control/pure_pursuit.py to pure_pursuit.cpython-312.pyc
+[4.229s] running install_data
+[4.229s] creating /home/yuarajan_s/ros2_ws/install/autonav_control/share/ament_index
+[4.230s] creating /home/yuarajan_s/ros2_ws/install/autonav_control/share/ament_index/resource_index
+[4.230s] creating /home/yuarajan_s/ros2_ws/install/autonav_control/share/ament_index/resource_index/packages
+[4.230s] copying resource/autonav_control -> /home/yuarajan_s/ros2_ws/install/autonav_control/share/ament_index/resource_index/packages
+[4.230s] copying package.xml -> /home/yuarajan_s/ros2_ws/install/autonav_control/share/autonav_control
+[4.230s] running install_egg_info
+[4.261s] Copying ../../build/autonav_control/autonav_control.egg-info to /home/yuarajan_s/ros2_ws/install/autonav_control/lib/python3.12/site-packages/autonav_control-0.0.0-py3.12.egg-info
+[4.261s] running install_scripts
+[4.455s] Installing path_follower script to /home/yuarajan_s/ros2_ws/install/autonav_control/lib/autonav_control
+[4.457s] Installing pure_pursuit script to /home/yuarajan_s/ros2_ws/install/autonav_control/lib/autonav_control
+[4.458s] writing list of installed files to '/home/yuarajan_s/ros2_ws/build/autonav_control/install.log'
+[4.587s] Invoked command in '/home/yuarajan_s/ros2_ws/src/autonav_control' returned '0': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/autonav_control/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/autonav_control/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonav_control build --build-base /home/yuarajan_s/ros2_ws/build/autonav_control/build install --record /home/yuarajan_s/ros2_ws/build/autonav_control/install.log --single-version-externally-managed install_data

@@ -1,0 +1,13 @@
+package.xml
+setup.cfg
+setup.py
+../../build/autonav_description/autonav_description.egg-info/PKG-INFO
+../../build/autonav_description/autonav_description.egg-info/SOURCES.txt
+../../build/autonav_description/autonav_description.egg-info/dependency_links.txt
+../../build/autonav_description/autonav_description.egg-info/top_level.txt
+autonav_description/__init__.py
+resource/autonav_description
+test/test_copyright.py
+test/test_flake8.py
+test/test_pep257.py
+urdf/robot.urdf

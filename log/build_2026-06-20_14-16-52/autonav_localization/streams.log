@@ -1,0 +1,53 @@
+[3.581s] Invoking command in '/home/yuarajan_s/ros2_ws/src/autonav_localization': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/autonav_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonav_localization build --build-base /home/yuarajan_s/ros2_ws/build/autonav_localization/build install --record /home/yuarajan_s/ros2_ws/build/autonav_localization/install.log --single-version-externally-managed install_data
+[4.083s] running egg_info
+[4.083s] creating ../../build/autonav_localization/autonav_localization.egg-info
+[4.111s] writing ../../build/autonav_localization/autonav_localization.egg-info/PKG-INFO
+[4.112s] writing dependency_links to ../../build/autonav_localization/autonav_localization.egg-info/dependency_links.txt
+[4.112s] writing entry points to ../../build/autonav_localization/autonav_localization.egg-info/entry_points.txt
+[4.112s] writing requirements to ../../build/autonav_localization/autonav_localization.egg-info/requires.txt
+[4.112s] writing top-level names to ../../build/autonav_localization/autonav_localization.egg-info/top_level.txt
+[4.113s] writing manifest file '../../build/autonav_localization/autonav_localization.egg-info/SOURCES.txt'
+[4.158s] reading manifest file '../../build/autonav_localization/autonav_localization.egg-info/SOURCES.txt'
+[4.160s] writing manifest file '../../build/autonav_localization/autonav_localization.egg-info/SOURCES.txt'
+[4.161s] running build
+[4.162s] running build_py
+[4.162s] creating /home/yuarajan_s/ros2_ws/build/autonav_localization/build
+[4.162s] creating /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib
+[4.162s] creating /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization
+[4.163s] copying autonav_localization/ekf_node.py -> /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization
+[4.164s] copying autonav_localization/__init__.py -> /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization
+[4.164s] copying autonav_localization/path_publisher.py -> /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization
+[4.165s] copying autonav_localization/ekf_localization_node.py -> /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization
+[4.168s] copying autonav_localization/tf_broadcaster.py -> /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization
+[4.168s] copying autonav_localization/robot_marker.py -> /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization
+[4.169s] running install
+[4.179s] running install_lib
+[4.207s] creating /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization
+[4.207s] copying /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization/ekf_node.py -> /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization
+[4.208s] copying /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization/__init__.py -> /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization
+[4.208s] copying /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization/path_publisher.py -> /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization
+[4.209s] copying /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization/ekf_localization_node.py -> /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization
+[4.209s] copying /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization/tf_broadcaster.py -> /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization
+[4.209s] copying /home/yuarajan_s/ros2_ws/build/autonav_localization/build/lib/autonav_localization/robot_marker.py -> /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization
+[4.216s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization/ekf_node.py to ekf_node.cpython-312.pyc
+[4.216s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization/__init__.py to __init__.cpython-312.pyc
+[4.216s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization/path_publisher.py to path_publisher.cpython-312.pyc
+[4.216s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization/ekf_localization_node.py to ekf_localization_node.cpython-312.pyc
+[4.228s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization/tf_broadcaster.py to tf_broadcaster.cpython-312.pyc
+[4.229s] byte-compiling /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization/robot_marker.py to robot_marker.cpython-312.pyc
+[4.229s] running install_data
+[4.229s] creating /home/yuarajan_s/ros2_ws/install/autonav_localization/share/ament_index
+[4.230s] creating /home/yuarajan_s/ros2_ws/install/autonav_localization/share/ament_index/resource_index
+[4.230s] creating /home/yuarajan_s/ros2_ws/install/autonav_localization/share/ament_index/resource_index/packages
+[4.230s] copying resource/autonav_localization -> /home/yuarajan_s/ros2_ws/install/autonav_localization/share/ament_index/resource_index/packages
+[4.230s] copying package.xml -> /home/yuarajan_s/ros2_ws/install/autonav_localization/share/autonav_localization
+[4.230s] running install_egg_info
+[4.249s] Copying ../../build/autonav_localization/autonav_localization.egg-info to /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages/autonav_localization-0.0.0-py3.12.egg-info
+[4.256s] running install_scripts
+[4.445s] Installing ekf_localization_node script to /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/autonav_localization
+[4.447s] Installing ekf_node script to /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/autonav_localization
+[4.448s] Installing path_publisher script to /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/autonav_localization
+[4.448s] Installing robot_marker script to /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/autonav_localization
+[4.449s] Installing tf_broadcaster script to /home/yuarajan_s/ros2_ws/install/autonav_localization/lib/autonav_localization
+[4.451s] writing list of installed files to '/home/yuarajan_s/ros2_ws/build/autonav_localization/install.log'
+[4.608s] Invoked command in '/home/yuarajan_s/ros2_ws/src/autonav_localization' returned '0': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/autonav_localization/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/autonav_localization/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/autonav_localization build --build-base /home/yuarajan_s/ros2_ws/build/autonav_localization/build install --record /home/yuarajan_s/ros2_ws/build/autonav_localization/install.log --single-version-externally-managed install_data

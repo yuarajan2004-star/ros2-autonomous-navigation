@@ -1,0 +1,26 @@
+[0.810s] Invoking command in '/home/yuarajan_s/ros2_ws/build/visual_odometry_pkg': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build --no-deps symlink_data
+[1.127s] running develop
+[1.318s] running egg_info
+[1.336s] writing visual_odometry_pkg.egg-info/PKG-INFO
+[1.336s] writing dependency_links to visual_odometry_pkg.egg-info/dependency_links.txt
+[1.336s] writing entry points to visual_odometry_pkg.egg-info/entry_points.txt
+[1.336s] writing requirements to visual_odometry_pkg.egg-info/requires.txt
+[1.336s] writing top-level names to visual_odometry_pkg.egg-info/top_level.txt
+[1.371s] reading manifest file 'visual_odometry_pkg.egg-info/SOURCES.txt'
+[1.371s] writing manifest file 'visual_odometry_pkg.egg-info/SOURCES.txt'
+[1.389s] running build_ext
+[1.389s] Creating /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages/visual-odometry-pkg.egg-link (link to .)
+[1.392s] Installing depth_estimator script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[1.393s] Installing essential_matrix_estimator script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[1.393s] Installing feature_matcher script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[1.393s] Installing monocular_visual_odometry script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[1.393s] Installing orb_feature_extractor script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[1.393s] Installing ransac_feature_matching script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[1.393s] Installing stereo_camera_publisher script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[1.393s] Installing stereo_vision script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[1.394s] Installing visual_odometry script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[1.394s] Installing visual_place_recognition script to /home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/visual_odometry_pkg
+[1.394s] 
+[1.394s] Installed /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg
+[1.394s] running symlink_data
+[1.432s] Invoked command in '/home/yuarajan_s/ros2_ws/build/visual_odometry_pkg' returned '0': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/visual_odometry_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuarajan_s/ros2_ws/build/visual_odometry_pkg/build --no-deps symlink_data

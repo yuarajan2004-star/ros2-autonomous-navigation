@@ -1,0 +1,22 @@
+[0.880s] Invoking command in '/home/yuarajan_s/ros2_ws/build/slam_pkg': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/slam_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuarajan_s/ros2_ws/build/slam_pkg/build --no-deps symlink_data
+[1.225s] running develop
+[1.421s] running egg_info
+[1.444s] writing slam_pkg.egg-info/PKG-INFO
+[1.444s] writing dependency_links to slam_pkg.egg-info/dependency_links.txt
+[1.444s] writing entry points to slam_pkg.egg-info/entry_points.txt
+[1.444s] writing requirements to slam_pkg.egg-info/requires.txt
+[1.445s] writing top-level names to slam_pkg.egg-info/top_level.txt
+[1.482s] reading manifest file 'slam_pkg.egg-info/SOURCES.txt'
+[1.483s] writing manifest file 'slam_pkg.egg-info/SOURCES.txt'
+[1.518s] running build_ext
+[1.518s] Creating /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/python3.12/site-packages/slam-pkg.egg-link (link to .)
+[1.519s] Installing data_association script to /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/slam_pkg
+[1.519s] Installing ekf_slam script to /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/slam_pkg
+[1.520s] Installing landmark_covariance script to /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/slam_pkg
+[1.520s] Installing landmark_detector script to /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/slam_pkg
+[1.521s] Installing loop_closure script to /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/slam_pkg
+[1.521s] Installing occupancy_grid_slam script to /home/yuarajan_s/ros2_ws/install/slam_pkg/lib/slam_pkg
+[1.522s] 
+[1.522s] Installed /home/yuarajan_s/ros2_ws/build/slam_pkg
+[1.523s] running symlink_data
+[1.608s] Invoked command in '/home/yuarajan_s/ros2_ws/build/slam_pkg' returned '0': PYTHONPATH=/home/yuarajan_s/ros2_ws/build/slam_pkg/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/yuarajan_s/ros2_ws/install/slam_pkg/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/yuarajan_s/ros2_ws/build/slam_pkg/build --no-deps symlink_data

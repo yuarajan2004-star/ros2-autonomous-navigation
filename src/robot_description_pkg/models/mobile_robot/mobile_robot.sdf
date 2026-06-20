@@ -1,0 +1,140 @@
+<sdf version='1.11'>
+  <model name='mobile_robot'>
+    <link name='base_link'>
+      <inertial>
+        <pose>0.0043859649122807024 0 0.0003508771929824559 0 0 0</pose>
+        <mass>11.4</mass>
+        <inertia>
+          <ixx>0.13457859649122811</ixx>
+          <ixy>0</ixy>
+          <ixz>-0.0065824561403508772</ixz>
+          <iyy>0.118359298245614</iyy>
+          <iyz>4.3368086899420177e-19</iyz>
+          <izz>0.130980701754386</izz>
+        </inertia>
+      </inertial>
+      <collision name='base_link_collision'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.40000000000000002 0.29999999999999999 0.14999999999999999</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__camera_link_collision_1'>
+        <pose>0.10000000000000001 0 0.14999999999999999 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.059999999999999998 0.059999999999999998 0.040000000000000001</size>
+          </box>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__left_wheel_collision_2'>
+        <pose>0 0.14999999999999999 -0.050000000000000003 1.5708 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.050000000000000003</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__lidar_link_collision_3'>
+        <pose>0.14999999999999999 0 0.12 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.050000000000000003</length>
+            <radius>0.040000000000000001</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <collision name='base_link_fixed_joint_lump__right_wheel_collision_4'>
+        <pose>0 -0.14999999999999999 -0.050000000000000003 1.5708 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.050000000000000003</radius>
+          </cylinder>
+        </geometry>
+      </collision>
+      <visual name='base_link_visual'>
+        <pose>0 0 0 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.40000000000000002 0.29999999999999999 0.14999999999999999</size>
+          </box>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__camera_link_visual_1'>
+        <pose>0.10000000000000001 0 0.14999999999999999 0 0 0</pose>
+        <geometry>
+          <box>
+            <size>0.059999999999999998 0.059999999999999998 0.040000000000000001</size>
+          </box>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__left_wheel_visual_2'>
+        <pose>0 0.14999999999999999 -0.050000000000000003 1.5708 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.050000000000000003</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__lidar_link_visual_3'>
+        <pose>0.14999999999999999 0 0.12 0 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.050000000000000003</length>
+            <radius>0.040000000000000001</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+      <visual name='base_link_fixed_joint_lump__right_wheel_visual_4'>
+        <pose>0 -0.14999999999999999 -0.050000000000000003 1.5708 0 0</pose>
+        <geometry>
+          <cylinder>
+            <length>0.029999999999999999</length>
+            <radius>0.050000000000000003</radius>
+          </cylinder>
+        </geometry>
+      </visual>
+    </link>
+    <frame name='camera_optical_joint' attached_to='camera_link'>
+      <pose>0 0 0 -1.5708 -5.5511151231257827e-17 -1.5708</pose>
+    </frame>
+    <frame name='camera_optical_frame' attached_to='camera_optical_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='camera_joint' attached_to='base_link'>
+      <pose>0.10000000000000001 0 0.14999999999999999 0 0 0</pose>
+    </frame>
+    <frame name='camera_link' attached_to='camera_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='left_wheel_joint' attached_to='base_link'>
+      <pose>0 0.14999999999999999 -0.050000000000000003 0 0 0</pose>
+    </frame>
+    <frame name='left_wheel' attached_to='left_wheel_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='laser_joint' attached_to='lidar_link'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='laser_frame' attached_to='laser_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='lidar_joint' attached_to='base_link'>
+      <pose>0.14999999999999999 0 0.12 0 0 0</pose>
+    </frame>
+    <frame name='lidar_link' attached_to='lidar_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+    <frame name='right_wheel_joint' attached_to='base_link'>
+      <pose>0 -0.14999999999999999 -0.050000000000000003 0 0 0</pose>
+    </frame>
+    <frame name='right_wheel' attached_to='right_wheel_joint'>
+      <pose>0 0 0 0 0 0</pose>
+    </frame>
+  </model>
+</sdf>

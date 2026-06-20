@@ -1,0 +1,40 @@
+Panels:
+  - Class: rviz_common/Displays
+    Name: Displays
+
+Visualization Manager:
+  Class: ""
+
+  Displays:
+
+    - Class: rviz_default_plugins/Grid
+      Enabled: true
+      Name: Grid
+
+    - Class: rviz_default_plugins/TF
+      Enabled: true
+      Name: TF
+
+    - Class: rviz_default_plugins/RobotModel
+      Enabled: true
+      Name: RobotModel
+      Description Source: Topic
+      Description Topic:
+        Value: /robot_description
+
+    - Class: rviz_default_plugins/LaserScan
+      Enabled: true
+      Name: LaserScan
+      Topic:
+        Value: /scan
+
+    - Class: rviz_default_plugins/Image
+      Enabled: true
+      Name: LeftCamera
+      Image Topic:
+        Value: /camera_left/image_raw
+
+  Global Options:
+    Fixed Frame: map
+
+  Name: root
