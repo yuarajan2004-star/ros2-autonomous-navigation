@@ -11,18 +11,15 @@
 
     <plugin
       filename="gz-sim-physics-system"
-      name="gz::sim::systems::Physics">
-    </plugin>
+      name="gz::sim::systems::Physics"/>
 
     <plugin
       filename="gz-sim-user-commands-system"
-      name="gz::sim::systems::UserCommands">
-    </plugin>
+      name="gz::sim::systems::UserCommands"/>
 
     <plugin
       filename="gz-sim-scene-broadcaster-system"
-      name="gz::sim::systems::SceneBroadcaster">
-    </plugin>
+      name="gz::sim::systems::SceneBroadcaster"/>
 
     <plugin
       filename="gz-sim-sensors-system"
@@ -58,6 +55,90 @@
               <normal>0 0 1</normal>
               <size>100 100</size>
             </plane>
+          </geometry>
+        </visual>
+
+      </link>
+    </model>
+
+    <!-- Front Wall -->
+
+    <model name="wall_front">
+      <static>true</static>
+
+      <pose>3 0 1 0 0 0</pose>
+
+      <link name="link">
+
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>0.2 6 2</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>0.2 6 2</size>
+            </box>
+          </geometry>
+        </visual>
+
+      </link>
+    </model>
+
+    <!-- Left Wall -->
+
+    <model name="wall_left">
+      <static>true</static>
+
+      <pose>0 3 1 0 0 0</pose>
+
+      <link name="link">
+
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.2 2</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.2 2</size>
+            </box>
+          </geometry>
+        </visual>
+
+      </link>
+    </model>
+
+    <!-- Right Wall -->
+
+    <model name="wall_right">
+      <static>true</static>
+
+      <pose>0 -3 1 0 0 0</pose>
+
+      <link name="link">
+
+        <collision name="collision">
+          <geometry>
+            <box>
+              <size>6 0.2 2</size>
+            </box>
+          </geometry>
+        </collision>
+
+        <visual name="visual">
+          <geometry>
+            <box>
+              <size>6 0.2 2</size>
+            </box>
           </geometry>
         </visual>
 
