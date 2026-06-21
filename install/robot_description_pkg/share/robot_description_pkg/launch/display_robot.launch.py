@@ -1,1 +1,0 @@
-/home/yuarajan_s/ros2_ws/build/robot_description_pkg/launch/display_robot.launch.py

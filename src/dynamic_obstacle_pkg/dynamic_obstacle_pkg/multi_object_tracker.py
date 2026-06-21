@@ -15,7 +15,7 @@ class MultiObjectTracker(Node):
 
         self.subscription = self.create_subscription(
             PoseArray,
-            '/tracked_obstacles',
+            '/dynamic_obstacles',
             self.callback,
             10
         )
@@ -36,7 +36,6 @@ class MultiObjectTracker(Node):
         )
 
     def distance(self, x1, y1, x2, y2):
-
         return math.sqrt(
             (x1 - x2) ** 2 +
             (y1 - y2) ** 2
@@ -50,7 +49,7 @@ class MultiObjectTracker(Node):
             py = pose.position.y
 
             matched_track = None
-            best_distance = 999.0
+            best_distance = float('inf')
 
             for track_id, track in self.tracks.items():
 
@@ -61,10 +60,7 @@ class MultiObjectTracker(Node):
                     track['y']
                 )
 
-                if (
-                    d < self.association_distance
-                    and d < best_distance
-                ):
+                if d < self.association_distance and d < best_distance:
                     matched_track = track_id
                     best_distance = d
 

@@ -3,9 +3,18 @@ install/
 log/
 
 *.pyc
+*.pyo
 __pycache__/
 
 .vscode/
 .idea/
 
-*.swp
+*.bag
+*.db3
+
+*.png
+*.jpg
+*.jpeg
+
+results/*
+screenshots/*
