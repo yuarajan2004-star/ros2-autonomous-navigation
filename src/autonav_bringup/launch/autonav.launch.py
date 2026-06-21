@@ -9,8 +9,18 @@ import os
 
 def generate_launch_description():
 
+    bringup_pkg = get_package_share_directory(
+        'autonav_bringup'
+    )
+
     robot_description_pkg = get_package_share_directory(
         'robot_description_pkg'
+    )
+
+    params_file = os.path.join(
+        bringup_pkg,
+        'config',
+        'autonav_params.yaml'
     )
 
     gazebo_launch = IncludeLaunchDescription(
@@ -30,7 +40,10 @@ def generate_launch_description():
                 'launch',
                 'slam.launch.py'
             )
-        )
+        ),
+        launch_arguments={
+            'params_file': params_file
+        }.items()
     )
 
     display_launch = IncludeLaunchDescription(

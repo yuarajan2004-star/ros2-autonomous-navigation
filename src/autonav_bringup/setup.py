@@ -1,4 +1,5 @@
-from setuptools import setup
+from setuptools import find_packages, setup
+import os
 from glob import glob
 
 package_name = 'autonav_bringup'
@@ -6,7 +7,7 @@ package_name = 'autonav_bringup'
 setup(
     name=package_name,
     version='0.0.0',
-    packages=[package_name],
+    packages=find_packages(exclude=['test']),
     data_files=[
         (
             'share/ament_index/resource_index/packages',
@@ -17,15 +18,30 @@ setup(
             ['package.xml']
         ),
         (
-            'share/' + package_name + '/launch',
+            os.path.join(
+                'share',
+                package_name,
+                'launch'
+            ),
             glob('launch/*.py')
+        ),
+        (
+            os.path.join(
+                'share',
+                package_name,
+                'config'
+            ),
+            glob('config/*.yaml')
         ),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
-    maintainer='yuarajan_s',
-    maintainer_email='yuarajan.2004@gmail.com',
-    description='Autonomous navigation bringup',
+    maintainer='yuarajan',
+    maintainer_email='yuarajan@example.com',
+    description='Autonomous robot bringup package',
     license='Apache-2.0',
-    entry_points={},
+    tests_require=['pytest'],
+    entry_points={
+        'console_scripts': [],
+    },
 )
