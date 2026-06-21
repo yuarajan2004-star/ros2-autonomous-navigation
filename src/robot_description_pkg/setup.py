@@ -18,15 +18,35 @@ setup(
             ['package.xml']
         ),
         (
-            os.path.join('share', package_name, 'launch'),
+            os.path.join(
+                'share',
+                package_name,
+                'launch'
+            ),
             glob('launch/*.py')
         ),
         (
-            os.path.join('share', package_name, 'urdf'),
+            os.path.join(
+                'share',
+                package_name,
+                'config'
+            ),
+            glob('config/*')
+        ),
+        (
+            os.path.join(
+                'share',
+                package_name,
+                'urdf'
+            ),
             glob('urdf/*.urdf')
         ),
         (
-            os.path.join('share', package_name, 'rviz'),
+            os.path.join(
+                'share',
+                package_name,
+                'rviz'
+            ),
             glob('rviz/*.rviz')
         ),
         (

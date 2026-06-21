@@ -32,7 +32,8 @@ def generate_launch_description():
             executable='robot_state_publisher',
             parameters=[
                 {'robot_description': robot_description}
-            ]
+            ],
+            output='screen'
         ),
 
         Node(
@@ -51,9 +52,25 @@ def generate_launch_description():
         ),
 
         Node(
+            package='tf2_ros',
+            executable='static_transform_publisher',
+            arguments=[
+                '0.15',
+                '0',
+                '0.12',
+                '0',
+                '0',
+                '0',
+                'base_link',
+                'mobile_robot/base_link/lidar_sensor'
+            ]
+        ),
+
+        Node(
             package='rviz2',
             executable='rviz2',
-            arguments=['-d', rviz_file]
+            arguments=['-d', rviz_file],
+            output='screen'
         )
 
     ])
