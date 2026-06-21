@@ -1,0 +1,10 @@
+local_planner:
+  ros__parameters:
+
+    forward_speed: 0.2
+
+    turn_speed: 0.5
+
+    obstacle_distance_threshold: 0.8
+
+    control_frequency: 10.0

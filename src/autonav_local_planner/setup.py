@@ -1,4 +1,5 @@
 from setuptools import setup
+from glob import glob
 
 package_name = 'autonav_local_planner'
 
@@ -14,6 +15,10 @@ setup(
         (
             'share/' + package_name,
             ['package.xml']
+        ),
+        (
+            'share/' + package_name + '/config',
+            glob('config/*.yaml')
         ),
     ],
     install_requires=['setuptools'],

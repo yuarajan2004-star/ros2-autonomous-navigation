@@ -1,6 +1,5 @@
 from setuptools import setup
 from glob import glob
-import os
 
 package_name = 'autonav_bringup'
 
@@ -18,18 +17,15 @@ setup(
             ['package.xml']
         ),
         (
-            os.path.join(
-                'share',
-                package_name,
-                'launch'
-            ),
-            glob('launch/*.launch.py')
+            'share/' + package_name + '/launch',
+            glob('launch/*.py')
         ),
     ],
     install_requires=['setuptools'],
     zip_safe=True,
     maintainer='yuarajan_s',
     maintainer_email='yuarajan.2004@gmail.com',
-    description='Autonomous navigation bringup package',
+    description='Autonomous navigation bringup',
     license='Apache-2.0',
+    entry_points={},
 )

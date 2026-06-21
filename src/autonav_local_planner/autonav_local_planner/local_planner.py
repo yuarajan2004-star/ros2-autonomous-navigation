@@ -1,5 +1,4 @@
 import rclpy
-import math
 
 from rclpy.node import Node
 
@@ -13,6 +12,35 @@ class LocalPlanner(Node):
     def __init__(self):
 
         super().__init__('local_planner')
+
+        self.declare_parameter(
+            'forward_speed',
+            0.2
+        )
+
+        self.declare_parameter(
+            'turn_speed',
+            0.5
+        )
+
+        self.declare_parameter(
+            'obstacle_distance_threshold',
+            0.8
+        )
+
+        self.forward_speed = self.get_parameter(
+            'forward_speed'
+        ).value
+
+        self.turn_speed = self.get_parameter(
+            'turn_speed'
+        ).value
+
+        self.obstacle_threshold = self.get_parameter(
+            'obstacle_distance_threshold'
+        ).value
+
+        self.front_distance = 10.0
 
         self.cmd_pub = self.create_publisher(
             Twist,
@@ -34,11 +62,15 @@ class LocalPlanner(Node):
             10
         )
 
-        self.front_distance = 10.0
-
         self.timer = self.create_timer(
             0.1,
             self.control_loop
+        )
+
+        self.get_logger().info(
+            f'forward_speed={self.forward_speed}, '
+            f'turn_speed={self.turn_speed}, '
+            f'obstacle_threshold={self.obstacle_threshold}'
         )
 
     def odom_callback(self, msg):
@@ -57,14 +89,14 @@ class LocalPlanner(Node):
 
         cmd = Twist()
 
-        if self.front_distance < 0.8:
+        if self.front_distance < self.obstacle_threshold:
 
             cmd.linear.x = 0.0
-            cmd.angular.z = 0.5
+            cmd.angular.z = self.turn_speed
 
         else:
 
-            cmd.linear.x = 0.2
+            cmd.linear.x = self.forward_speed
             cmd.angular.z = 0.0
 
         self.cmd_pub.publish(cmd)
