@@ -1,0 +1,28 @@
+system:
+  use_sim_time: true
+
+robot:
+  base_frame: base_link
+  odom_frame: odom
+  map_frame: map
+
+slam:
+  resolution: 0.05
+  max_laser_range: 20.0
+  map_update_interval: 2.0
+
+localization:
+  publish_tf: true
+  frequency: 30.0
+
+planning:
+  planner_frequency: 10.0
+  goal_tolerance: 0.20
+
+control:
+  controller_frequency: 20.0
+  max_linear_velocity: 0.5
+  max_angular_velocity: 1.0
+
+logging:
+  level: INFO

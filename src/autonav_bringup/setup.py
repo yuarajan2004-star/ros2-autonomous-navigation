@@ -1,6 +1,6 @@
 from setuptools import find_packages, setup
-import os
 from glob import glob
+import os
 
 package_name = 'autonav_bringup'
 
@@ -38,7 +38,7 @@ setup(
     zip_safe=True,
     maintainer='yuarajan',
     maintainer_email='yuarajan@example.com',
-    description='Autonomous robot bringup package',
+    description='AutoNav Bringup Package',
     license='Apache-2.0',
     tests_require=['pytest'],
     entry_points={

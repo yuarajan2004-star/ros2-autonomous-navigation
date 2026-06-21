@@ -1,0 +1,11 @@
+simulation:
+  gazebo: true
+
+visualization:
+  rviz: true
+
+development:
+  debug_mode: false
+
+deployment:
+  production_mode: false
