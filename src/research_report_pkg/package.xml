@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+
+<package format="3">
+
+  <name>research_report_pkg</name>
+  <version>0.0.0</version>
+
+  <description>Research report generation package</description>
+
+  <maintainer email="yuarajan.2004@gmail.com">
+    yuarajan_s
+  </maintainer>
+
+  <license>Apache-2.0</license>
+
+  <depend>rclpy</depend>
+  <depend>nav_msgs</depend>
+
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+
+</package>
